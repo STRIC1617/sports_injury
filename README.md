@@ -55,28 +55,28 @@ The dataset used for this analysis includes player injury data, player character
 # Models
 This project employs several regression models for predicting recovery times:
 
-Linear Regression
-Decision Tree Regressor
-Random Forest Regressor
-Support Vector Regressor (SVR)
-K-Nearest Neighbors Regressor (KNN)
+- Linear Regression
+- Decision Tree Regressor
+- Random Forest Regressor
+- Support Vector Regressor (SVR)
+- K-Nearest Neighbors Regressor (KNN)
 # Ensemble methods used:
 
-Voting Regressor
-Stacking Regressor
+- Voting Regressor
+- Stacking Regressor
 # The models are evaluated using metrics such as:
 
-Mean Squared Error (MSE)
-Mean Absolute Error (MAE)
-Root Mean Squared Error (RMSE)
-R-squared (R²)
-Visualizations
+- Mean Squared Error (MSE)
+- Mean Absolute Error (MAE)
+- Root Mean Squared Error (RMSE)
+- R-squared (R²)
+## Visualizations
 # The project generates visualizations to analyze:
 
-Distribution of injuries
-Age distribution of injured players
-Recovery times based on age and club budget
-Performance metrics for regression models
+- Distribution of injuries
+- Age distribution of injured players
+- Recovery times based on age and club budget
+- Performance metrics for regression models
 
 #
 All figures are saved in the figures directory.
