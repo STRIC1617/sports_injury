@@ -28,7 +28,6 @@ injury_types = {
 }
 
 @app.route('/', methods=['GET', 'POST'])
-@app.route('/', methods=['GET', 'POST'])
 def index():
     if request.method == 'POST':
         weight = float(request.form['weight'])
