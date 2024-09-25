@@ -42,8 +42,8 @@ X = df[['weight', 'height', 'club_value', 'age', 'type', 'bmi', 'avg_recovery_ti
 y = df['days']
 
 # Ensure all data types are numeric
-X = X.apply(pd.to_numeric, errors='coerce').dropna()
-y = pd.to_numeric(y, errors='coerce')[X.index]
+X = X.apply(pd.to_numeric, errors='coerce').dropna() # Data
+y = pd.to_numeric(y, errors='coerce')[X.index] #Labels
 
 # Split data for training and testing
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
@@ -68,7 +68,7 @@ metrics = []
 
 # Evaluate and save models
 for name, model in models.items():
-    model.fit(X_train, y_train)
+    model.fit(X_train, y_train) # Data train
     y_pred = model.predict(X_test)
     
     # Calculate metrics
