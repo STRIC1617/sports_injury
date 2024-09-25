@@ -9,6 +9,10 @@ models = {
     "K Nearest Neighbour Regression": joblib.load('models/k-nearest_neighbors_regression_model.pkl'),
     "Decision Tree": joblib.load('models/decision_tree_regression_model.pkl'),
     "Linear Regression": joblib.load('models/linear_regression_regression_model.pkl'),
+    "Random Forest Regression": joblib.load('models/random_forest_regression_model.pkl'),
+    "Support Vector Machine Tree": joblib.load('models/support_vector_regression_regression_model.pkl'),
+    "Voting Ensemble Regression": joblib.load('models/voting_regressor_ensemble_model.pkl'),
+    "Stacking Regressor Ensemble Regression": joblib.load('models/stacking_regressor_ensemble_model.pkl'),
     # Add other models as needed
 }
 
